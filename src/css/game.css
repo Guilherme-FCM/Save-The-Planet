@@ -1,0 +1,48 @@
+#naveJogador{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background-repeat: no-repeat;
+    background-size: 120px;
+}
+
+#vilao{
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    background-repeat: no-repeat;
+    background-size: 130px;
+    z-index: 5;
+    display: none;
+}
+
+.tiroJogador{
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background-color: red;
+    border-radius: 6px;
+}
+
+.tiroVilao{
+    position: absolute;
+    width: 6px;
+    height: 15px;
+    background-color: green;
+    border-radius: 6px;
+}
+
+.bomba{
+    position: absolute;
+    width: 38px;
+    height: 60px;
+    background-image: url(../assets/imagens/bomba.gif);
+    background-repeat: no-repeat;
+    background-size: 38px 60px;
+}
+
+.explosao{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}

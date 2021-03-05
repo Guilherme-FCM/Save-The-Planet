@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <title>Save The Planet</title>
+</head>
+<body>
+    <div id="container-jogar">
+        <div id="foguete"><img src="foguete.png" width="400"></div>
+        <div ontouchstart="">
+            <div class="button">
+                <a id="btn-jogar">JOGAR</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="vilao"></div>
+    <div id="naveJogador"></div>
+
+    <div id="popup">
+        <h1>Save The Planet</h1>
+        <div id="pontuacaoMaxima"> Pontuação Máxima: <span></span> <img src="trofeu.png" width="80"></div>
+        <div id="nave-container">
+            <i class="fa popup-arrows fa-arrow-left" aria-hidden="true"></i>
+            <div id="nave-container-items">
+            </div>
+            <i class="fa popup-arrows fa-arrow-right" aria-hidden="true"></i>
+        </div>
+        <button id="popup-btn">START</button>
+    </div>
+
+    <div id="vidaPlaneta">
+        <div class="medidor">
+            <div class="barra">
+                <span> Vida do Planeta </span>
+            </div>
+        </div>
+        <div> Pontuação: <span id="pontuacao"> 0 </span></div>
+    </div>
+
+    <div id="vidaJogador">
+        <div class="medidor">
+            <div class="barra">
+                <span> Vida do Jogador</span>
+            </div>
+        </div>
+    </div>
+
+    <div id="vidaVilao">
+        <div class="medidor">
+            <div class="barra">
+                <span> Vida do Vilão</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
