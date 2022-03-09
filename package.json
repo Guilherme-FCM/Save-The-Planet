@@ -1,6 +1,6 @@
 {
-  "name": "Refectring-SaveThePlanet",
-  "version": "1.0.0",
+  "name": "Save-The-Planet",
+  "version": "2.0.0",
   "description": "",
   "scripts": {
     "build": "webpack --mode production",
